@@ -6,7 +6,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 600px;
-  background-color: azure; /* this will overwrite the top background color */
+  background-color: azure; 
 }
 
 .relativeTimer {
@@ -14,7 +14,7 @@ body {
 }
 
 #timer {
-  margin: auto; /* to center the timer */
+  margin: auto; 
   right: 0;
   top: 0;
   height: 80px;
