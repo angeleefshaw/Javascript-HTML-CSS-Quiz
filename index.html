@@ -1,20 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Coding Quix</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/style.css">
-    </head>
-    <body>
-        <div class="card">
-           <card id="startPage" class="flex-column flex-center">
-              <h1>The Coding Quiz</h1>
-              <a href="firstQuestion.html" id = "startQuiz" class= "firstQuestion"> Start Quiz</a>
-            </card>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Coding Quiz</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <card id="startPage" class="flex-column flex-center">
+        <h1>The Coding Quiz</h1>
+        <a id="startQuiz" class="firstQuestion"> Start Quiz</a>
+        <!-- all the question should be in one page to share same script -->
+        <!-- global timer -->
+        <div class="relativeTimer">
+          <p id="timer">0:15</p>
         </div>
-        <script src="./assets/script.js" defer></script>
-    </body>
+
+        <div class="Question">
+          <h1 style="text-align: center">The First Question</h1>
+          <div class="card">
+            <card id="" class="startPage flex-column flex-center">
+              <h2>
+                Which of the following is not a CSS feature created for
+                responsive web page layouts?
+              </h2>
+              <ul>
+                <button class="correct">flexflow layout</button>
+                <button class="incorrect">The Box Model</button>
+                <button class="incorrect">css grid</button>
+                <button class="incorrect">CSS Flexbox</button>
+              </ul>
+              <div>
+                <a class="nextQ">Next Question</a>
+                <a class="quit quitQuiz">Quit</a>
+              </div>
+            </card>
+          </div>
+        </div>
+
+        <div class="Question">
+          <h1 style="text-align: center">The Second Question</h1>
+          <div class="card">
+            <card id="" class="startPage flex-column flex-center">
+              <h2>
+                Which of the following is not an example of a Javascript
+                function?
+              </h2>
+              <ul>
+                <button class="incorrect">
+                  const counter = function(array) { return array.length;}
+                </button>
+                <button class="incorrect">
+                  function sum(a, b) { return a + b;}
+                </button>
+                <button class="correct">const foodItems = `${myArray}`</button>
+                <button class="incorrect">
+                  hello = () => { return "Hello World!";}
+                </button>
+              </ul>
+              <div>
+                <a class="nextQ" class="secondQuestion">Next Question</a>
+                <a class="quit">Quit</a>
+              </div>
+            </card>
+          </div>
+        </div>
+
+        <div class="Question">
+          <h1 style="text-align: center">The Third Question</h1>
+          <div class="card">
+            <card id="" class="startPage flex-column flex-center">
+              <h2>
+                Which of the following displays proper syntax when calling a
+                function?
+              </h2>
+              <ul>
+                <button class="incorrect">const myArray</button>
+                <button class="incorrect">let sum(a-b)= c</button>
+                <button class="incorrect">console.log</button>
+                <button class="correct">
+                  Hello(parameterTwo, parameterTwo)
+                </button>
+              </ul>
+              <div>
+                <a class="nextQ">Next Question</a>
+                <a class="quit">Quit</a>
+              </div>
+            </card>
+          </div>
+        </div>
+
+        <div class="Question">
+          <h1 style="text-align: center">The Fourth Question</h1>
+          <div class="card">
+            <card id="" class="startPage flex-column flex-center">
+              <h2>
+                Which javascript method can be used tp produce a random number?
+              </h2>
+              <ul>
+                <button class="incorrect">Math.number()</button>
+                <button class="incorrect">Math.generate()</button>
+                <button class="correct">Math.random()</button>
+                <button class="incorrect">.randomNum()</button>
+              </ul>
+              <div>
+                <a class="nextQ">Turn in Quiz</a>
+                <a class="quit">Quit</a>
+              </div>
+            </card>
+          </div>
+        </div>
+
+        <div class="card" id="score">
+          <h1 style="text-align: center">Score</h1>
+          <card class="startPage flex-column flex-center">
+            <h2>You're done with the Coding Quiz!</h2>
+            <div>Your score : <span id="socreText"></span></div>
+
+            <a href = index.html d="finish">Finish</a>
+          </card>
+        </div>
+      </card>
+    </div>
+    <script src="./assets/script.js" defer></script>
+  </body>
 </html>
