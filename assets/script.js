@@ -52,7 +52,7 @@ for (let nextQ of nextQuestionsBtns) {
 // if click on quit take to main page and hide everything
 for (let btn of quitBtns) {
   btn.addEventListener("click", () => {
-    location.href = "/index.html";
+    location.href = "https://angeleefshaw.github.io/Javascript-HTML-CSS-Quiz/";
   });
 }
 
