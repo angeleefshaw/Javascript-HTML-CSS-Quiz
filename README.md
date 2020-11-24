@@ -19,8 +19,8 @@ After your selection, refer to the bottom left corner of the code card to move t
 
 ![CodeQuizEndButtons](./assets/Next-question-quit-quiz-buttons.png)
 
-your score will be displayed once you have completed the quiz. If you should quit before completing the quiz, your score will still be calculated and given to you.  
+Your score will be displayed once you have completed the quiz. If you should quit before completing the quiz, your score will be calculated and displayed to you.  
 
 # The Code
 
-This applicatio features HTML, CSS and Javascript 
+This application features HTML, CSS and Javascript 
